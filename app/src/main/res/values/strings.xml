@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">个人记账</string>
+    <string name="title">我的账本</string>
+    <string name="zhichu">支出</string>
+    <string name="shouru">收入</string>
+    <string name="expend">支出</string>
+    <string name="income">收入</string>
+</resources>

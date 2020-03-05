@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/linearLayout_billinfo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:background="@color/colorGreen">-->
+        <!--<TextView-->
+            <!--android:id="@+id/txv_billinfo_class"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/eachBillHeightInTable"-->
+            <!--android:gravity="left"-->
+            <!--android:layout_weight="1"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/txv_billinfo_value"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/eachBillHeightInTable"-->
+            <!--android:gravity="right"-->
+            <!--android:layout_weight="1"/>-->
+    <!--</LinearLayout>-->
+</LinearLayout>

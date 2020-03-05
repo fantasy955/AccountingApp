@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <TextView
+        android:id="@+id/txv_billsDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/smallerTxt"
+        android:background="@color/colorWhite"/>
+    <LinearLayout
+        android:id="@+id/linearLayout_billinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorWhite">
+        <TextView
+            android:id="@+id/txv_billinfo_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/smallTxt"
+            android:gravity="left"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/txv_billinfo_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/smallTxt"
+            android:gravity="right"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <!--<TableLayout-->
+        <!--android:id="@+id/tabLayout_detail_item_table"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorWhite">-->
+        <!--<TableRow-->
+            <!--android:id="@+id/tablerow_billinfo"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+        <!--</TableRow>-->
+    <!--</TableLayout>-->
+</LinearLayout>
